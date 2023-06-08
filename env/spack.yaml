@@ -1,0 +1,9 @@
+spack:
+  specs:
+    - libxc@5.2.3 %gcc
+    - libxc@5.2.3 %nvhpc
+    #  - sirius@develop build_type=Debug %gcc +fortran +wannier90 +scalapack ^openblas ^mpich ^umpire~cuda~device_alloc
+  view: false
+  concretizer:
+    unify: when_possible
+    reuse: true
