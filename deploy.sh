@@ -15,6 +15,6 @@ spack install gcc@11.4.0 %gcc@7
 
 spack compiler find `spack location -i gcc@11.4.0`
 
-spack install nvhpc@22.5 %gcc@11
+spack install nvhpc@23.1 %gcc@11
 
-spack compiler find $(spack location -i nvhpc@22.5)/Linux_x86_64/22.5/compilers
+spack compiler find $(spack location -i nvhpc@23.1)/Linux_x86_64/23.1/compilers

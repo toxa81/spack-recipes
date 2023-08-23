@@ -1,0 +1,7 @@
+spack:
+  specs:
+    - quantum-espresso@7.1 %nvhpc@23.1 +libxc +scalapack +mpi ~cuda ^openblas threads=openmp ^cray-mpich ^libxc@5.2.3%nvhpc~cuda
+  view: false
+  concretizer:
+    unify: true
+    reuse: true
